@@ -9,10 +9,10 @@ export function Login() {
         <div className="form">
           <h1>Login</h1>
           <form action={"http://localhost:5000/login"} method="POST">
-            <input type="email" id="email" placeholder="email" required></input>
+            <input type="email" name="email" placeholder="email" required></input>
             <input
               type="password"
-              id="password"
+              name="password"
               placeholder="password"
               required
             ></input>
