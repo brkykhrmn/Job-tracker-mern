@@ -39,6 +39,7 @@ button {
 .content {
     height: 91vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: rgba(127, 255, 212, 0.301);
@@ -75,4 +76,16 @@ a {
 a:hover {
     background-color: rgba(64, 172, 136, 0.582);
     border-radius: 5px;
+}
+
+.job-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(36, 151, 113, 0.301);
+    margin-top: 1vh;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(11, 70, 50, 0.486);
+    text-align: center;
 }

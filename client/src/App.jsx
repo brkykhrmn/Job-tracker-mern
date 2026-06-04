@@ -1,8 +1,9 @@
 import './App.css'
-import { Home } from './pages/Home'
+import { Land } from './pages/Land'
 import { Login } from './pages/Login'
 import { HashRouter, Routes, Route } from 'react-router-dom'
 import { Register } from './pages/Register'
+import { Home } from './pages/Home'
 
 function App() {
 
@@ -10,9 +11,10 @@ function App() {
     <>
       <HashRouter>
         <Routes>
-          <Route path="/" element={<Home></Home>}></Route>
+          <Route path="/" element={<Land></Land>}></Route>
           <Route path="/login" element={<Login></Login>}></Route>
           <Route path="/register" element={<Register></Register>}></Route>
+          <Route path="/create" element={<Home></Home>}></Route>
         </Routes>
       </HashRouter>
     </>
